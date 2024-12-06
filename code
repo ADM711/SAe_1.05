@@ -12,7 +12,6 @@ total2021=0
 total2023=0
 
 
-
 with open ('donnees_2008.csv',newline='') as csvfile:
      reader=csv.reader(csvfile,delimiter=',')
      for row in reader:
